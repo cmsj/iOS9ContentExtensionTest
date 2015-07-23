@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BLOCK ALL THE THINGS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>The Blocker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4FD37A0E1B2888A000327318</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FD37A2A1B2888A000327318</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FD37A351B2888A000327318</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FD37A4B1B28894F00327318</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD37A141B2888A000327318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A131B2888A000327318 /* main.m */; };
+		4FD37A171B2888A000327318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A161B2888A000327318 /* AppDelegate.m */; };
+		4FD37A1A1B2888A000327318 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A191B2888A000327318 /* MasterViewController.m */; };
+		4FD37A1D1B2888A000327318 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A1C1B2888A000327318 /* DetailViewController.m */; };
+		4FD37A201B2888A000327318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD37A1E1B2888A000327318 /* Main.storyboard */; };
+		4FD37A221B2888A000327318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD37A211B2888A000327318 /* Assets.xcassets */; };
+		4FD37A251B2888A000327318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD37A231B2888A000327318 /* LaunchScreen.storyboard */; };
+		4FD37A301B2888A000327318 /* The_BlockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A2F1B2888A000327318 /* The_BlockerTests.m */; };
+		4FD37A3B1B2888A000327318 /* The_BlockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A3A1B2888A000327318 /* The_BlockerUITests.m */; };
+		4FD37A521B28895000327318 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD37A511B28895000327318 /* ActionRequestHandler.m */; };
+		4FD37A561B28895000327318 /* BLOCK ALL THE THINGS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4FD37A4C1B28894F00327318 /* BLOCK ALL THE THINGS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FD37A5D1B28958800327318 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FD37A4E1B28895000327318 /* blockerList.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD37A2C1B2888A000327318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD37A071B2888A000327318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD37A0E1B2888A000327318;
+			remoteInfo = "The Blocker";
+		};
+		4FD37A371B2888A000327318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD37A071B2888A000327318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD37A0E1B2888A000327318;
+			remoteInfo = "The Blocker";
+		};
+		4FD37A541B28895000327318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD37A071B2888A000327318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD37A4B1B28894F00327318;
+			remoteInfo = "BLOCK ALL THE THINGS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FD37A5A1B28895000327318 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4FD37A561B28895000327318 /* BLOCK ALL THE THINGS.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FD37A0F1B2888A000327318 /* The Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD37A131B2888A000327318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FD37A151B2888A000327318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD37A161B2888A000327318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD37A181B2888A000327318 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4FD37A191B2888A000327318 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4FD37A1B1B2888A000327318 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4FD37A1C1B2888A000327318 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4FD37A1F1B2888A000327318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD37A211B2888A000327318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD37A241B2888A000327318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD37A261B2888A000327318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD37A2B1B2888A000327318 /* The BlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BlockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD37A2F1B2888A000327318 /* The_BlockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_BlockerTests.m; sourceTree = "<group>"; };
+		4FD37A311B2888A000327318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD37A361B2888A000327318 /* The BlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BlockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD37A3A1B2888A000327318 /* The_BlockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_BlockerUITests.m; sourceTree = "<group>"; };
+		4FD37A3C1B2888A000327318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD37A4C1B28894F00327318 /* BLOCK ALL THE THINGS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BLOCK ALL THE THINGS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD37A4E1B28895000327318 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		4FD37A501B28895000327318 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		4FD37A511B28895000327318 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		4FD37A531B28895000327318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD37A5B1B288A3100327318 /* BLOCK ALL THE THINGS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BLOCK ALL THE THINGS.entitlements"; sourceTree = "<group>"; };
+		4FD37A5C1B288A5700327318 /* The Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "The Blocker.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD37A0C1B2888A000327318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A281B2888A000327318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A331B2888A000327318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A491B28894F00327318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD37A061B2888A000327318 = {
+			isa = PBXGroup;
+			children = (
+				4FD37A111B2888A000327318 /* The Blocker Main App */,
+				4FD37A2E1B2888A000327318 /* The BlockerTests */,
+				4FD37A391B2888A000327318 /* The BlockerUITests */,
+				4FD37A4D1B28895000327318 /* The Blocker Extension */,
+				4FD37A101B2888A000327318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD37A101B2888A000327318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A0F1B2888A000327318 /* The Blocker.app */,
+				4FD37A2B1B2888A000327318 /* The BlockerTests.xctest */,
+				4FD37A361B2888A000327318 /* The BlockerUITests.xctest */,
+				4FD37A4C1B28894F00327318 /* BLOCK ALL THE THINGS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD37A111B2888A000327318 /* The Blocker Main App */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A5C1B288A5700327318 /* The Blocker.entitlements */,
+				4FD37A151B2888A000327318 /* AppDelegate.h */,
+				4FD37A161B2888A000327318 /* AppDelegate.m */,
+				4FD37A181B2888A000327318 /* MasterViewController.h */,
+				4FD37A191B2888A000327318 /* MasterViewController.m */,
+				4FD37A1B1B2888A000327318 /* DetailViewController.h */,
+				4FD37A1C1B2888A000327318 /* DetailViewController.m */,
+				4FD37A1E1B2888A000327318 /* Main.storyboard */,
+				4FD37A211B2888A000327318 /* Assets.xcassets */,
+				4FD37A231B2888A000327318 /* LaunchScreen.storyboard */,
+				4FD37A261B2888A000327318 /* Info.plist */,
+				4FD37A121B2888A000327318 /* Supporting Files */,
+			);
+			name = "The Blocker Main App";
+			path = "The Blocker";
+			sourceTree = "<group>";
+		};
+		4FD37A121B2888A000327318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A131B2888A000327318 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FD37A2E1B2888A000327318 /* The BlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A2F1B2888A000327318 /* The_BlockerTests.m */,
+				4FD37A311B2888A000327318 /* Info.plist */,
+			);
+			path = "The BlockerTests";
+			sourceTree = "<group>";
+		};
+		4FD37A391B2888A000327318 /* The BlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A3A1B2888A000327318 /* The_BlockerUITests.m */,
+				4FD37A3C1B2888A000327318 /* Info.plist */,
+			);
+			path = "The BlockerUITests";
+			sourceTree = "<group>";
+		};
+		4FD37A4D1B28895000327318 /* The Blocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37A5B1B288A3100327318 /* BLOCK ALL THE THINGS.entitlements */,
+				4FD37A4E1B28895000327318 /* blockerList.json */,
+				4FD37A501B28895000327318 /* ActionRequestHandler.h */,
+				4FD37A511B28895000327318 /* ActionRequestHandler.m */,
+				4FD37A531B28895000327318 /* Info.plist */,
+			);
+			name = "The Blocker Extension";
+			path = "BLOCK ALL THE THINGS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD37A0E1B2888A000327318 /* The Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD37A3F1B2888A000327318 /* Build configuration list for PBXNativeTarget "The Blocker" */;
+			buildPhases = (
+				4FD37A0B1B2888A000327318 /* Sources */,
+				4FD37A0C1B2888A000327318 /* Frameworks */,
+				4FD37A0D1B2888A000327318 /* Resources */,
+				4FD37A5A1B28895000327318 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD37A551B28895000327318 /* PBXTargetDependency */,
+			);
+			name = "The Blocker";
+			productName = "The Blocker";
+			productReference = 4FD37A0F1B2888A000327318 /* The Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD37A2A1B2888A000327318 /* The BlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD37A421B2888A000327318 /* Build configuration list for PBXNativeTarget "The BlockerTests" */;
+			buildPhases = (
+				4FD37A271B2888A000327318 /* Sources */,
+				4FD37A281B2888A000327318 /* Frameworks */,
+				4FD37A291B2888A000327318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD37A2D1B2888A000327318 /* PBXTargetDependency */,
+			);
+			name = "The BlockerTests";
+			productName = "The BlockerTests";
+			productReference = 4FD37A2B1B2888A000327318 /* The BlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD37A351B2888A000327318 /* The BlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD37A451B2888A000327318 /* Build configuration list for PBXNativeTarget "The BlockerUITests" */;
+			buildPhases = (
+				4FD37A321B2888A000327318 /* Sources */,
+				4FD37A331B2888A000327318 /* Frameworks */,
+				4FD37A341B2888A000327318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD37A381B2888A000327318 /* PBXTargetDependency */,
+			);
+			name = "The BlockerUITests";
+			productName = "The BlockerUITests";
+			productReference = 4FD37A361B2888A000327318 /* The BlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4FD37A4B1B28894F00327318 /* BLOCK ALL THE THINGS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD37A571B28895000327318 /* Build configuration list for PBXNativeTarget "BLOCK ALL THE THINGS" */;
+			buildPhases = (
+				4FD37A481B28894F00327318 /* Sources */,
+				4FD37A491B28894F00327318 /* Frameworks */,
+				4FD37A4A1B28894F00327318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLOCK ALL THE THINGS";
+			productName = "BLOCK ALL THE THINGS";
+			productReference = 4FD37A4C1B28894F00327318 /* BLOCK ALL THE THINGS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD37A071B2888A000327318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chris Jones";
+				TargetAttributes = {
+					4FD37A0E1B2888A000327318 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = VQCYSNZB89;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4FD37A2A1B2888A000327318 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FD37A0E1B2888A000327318;
+					};
+					4FD37A351B2888A000327318 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FD37A0E1B2888A000327318;
+					};
+					4FD37A4B1B28894F00327318 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = VQCYSNZB89;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4FD37A0A1B2888A000327318 /* Build configuration list for PBXProject "The Blocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD37A061B2888A000327318;
+			productRefGroup = 4FD37A101B2888A000327318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD37A0E1B2888A000327318 /* The Blocker */,
+				4FD37A2A1B2888A000327318 /* The BlockerTests */,
+				4FD37A351B2888A000327318 /* The BlockerUITests */,
+				4FD37A4B1B28894F00327318 /* BLOCK ALL THE THINGS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD37A0D1B2888A000327318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD37A251B2888A000327318 /* LaunchScreen.storyboard in Resources */,
+				4FD37A221B2888A000327318 /* Assets.xcassets in Resources */,
+				4FD37A5D1B28958800327318 /* blockerList.json in Resources */,
+				4FD37A201B2888A000327318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A291B2888A000327318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A341B2888A000327318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A4A1B28894F00327318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD37A0B1B2888A000327318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD37A171B2888A000327318 /* AppDelegate.m in Sources */,
+				4FD37A1A1B2888A000327318 /* MasterViewController.m in Sources */,
+				4FD37A141B2888A000327318 /* main.m in Sources */,
+				4FD37A1D1B2888A000327318 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A271B2888A000327318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD37A301B2888A000327318 /* The_BlockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A321B2888A000327318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD37A3B1B2888A000327318 /* The_BlockerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD37A481B28894F00327318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD37A521B28895000327318 /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD37A2D1B2888A000327318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD37A0E1B2888A000327318 /* The Blocker */;
+			targetProxy = 4FD37A2C1B2888A000327318 /* PBXContainerItemProxy */;
+		};
+		4FD37A381B2888A000327318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD37A0E1B2888A000327318 /* The Blocker */;
+			targetProxy = 4FD37A371B2888A000327318 /* PBXContainerItemProxy */;
+		};
+		4FD37A551B28895000327318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD37A4B1B28894F00327318 /* BLOCK ALL THE THINGS */;
+			targetProxy = 4FD37A541B28895000327318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD37A1E1B2888A000327318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD37A1F1B2888A000327318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD37A231B2888A000327318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD37A241B2888A000327318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD37A3D1B2888A000327318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD37A3E1B2888A000327318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD37A401B2888A000327318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Blocker/The Blocker.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Blocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4FD37A411B2888A000327318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Blocker/The Blocker.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Blocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4FD37A431B2888A000327318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The BlockerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-BlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blocker.app/The Blocker";
+			};
+			name = Debug;
+		};
+		4FD37A441B2888A000327318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The BlockerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-BlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blocker.app/The Blocker";
+			};
+			name = Release;
+		};
+		4FD37A461B2888A000327318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The BlockerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-BlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Blocker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FD37A471B2888A000327318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The BlockerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-BlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Blocker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		4FD37A581B28895000327318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BLOCK ALL THE THINGS/BLOCK ALL THE THINGS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BLOCK ALL THE THINGS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-Blocker.BLOCK-ALL-THE-THINGS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4FD37A591B28895000327318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BLOCK ALL THE THINGS/BLOCK ALL THE THINGS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BLOCK ALL THE THINGS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tenshu.The-Blocker.BLOCK-ALL-THE-THINGS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD37A0A1B2888A000327318 /* Build configuration list for PBXProject "The Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD37A3D1B2888A000327318 /* Debug */,
+				4FD37A3E1B2888A000327318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD37A3F1B2888A000327318 /* Build configuration list for PBXNativeTarget "The Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD37A401B2888A000327318 /* Debug */,
+				4FD37A411B2888A000327318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD37A421B2888A000327318 /* Build configuration list for PBXNativeTarget "The BlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD37A431B2888A000327318 /* Debug */,
+				4FD37A441B2888A000327318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD37A451B2888A000327318 /* Build configuration list for PBXNativeTarget "The BlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD37A461B2888A000327318 /* Debug */,
+				4FD37A471B2888A000327318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD37A571B28895000327318 /* Build configuration list for PBXNativeTarget "BLOCK ALL THE THINGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD37A581B28895000327318 /* Debug */,
+				4FD37A591B28895000327318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD37A071B2888A000327318 /* Project object */;
+}
